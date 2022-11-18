@@ -60,7 +60,8 @@ second_method = time_list2(1_000_000)
  #first_possible_solution: 
 def timing_1(function, name_of_method):
     start_time = time.perf_counter_ns()
-    time.sleep(1)
+    
+    time.sleep(1) #time is a package and sleep is a function inside that package
     function
     end_time = time.perf_counter_ns()
     duration = end_time - start_time
@@ -116,3 +117,12 @@ A = find_in_filenames(
     "C:\\Users\\PC\\Desktop\\Rest\\-ReDI\\Repositries\\L7-Portfolio", "*sunrise*.*")
 print ("Task 6:")
 print (A)
+
+
+
+
+#import package.file 
+#package.file.class
+#from package.file import class or function or variable 
+#package and llibraries are interchangeable 
+#help(what ever you are having a problem with/ you can search )
